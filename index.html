@@ -251,6 +251,13 @@ section{padding:74px 0;}
 .idx-card li a{color:var(--ink);}
 .idx-card li a:hover{color:var(--ski-blue);text-decoration:underline;}
 .idx-card li::before{content:"▸";color:var(--ski-blue);margin-right:8px;}
+.idx-card .idx-desc{font-size:13.5px;color:var(--ink-soft);line-height:1.55;flex:1;margin-bottom:16px;}
+.idx-card .idx-more{
+  font-size:14px;font-weight:800;color:var(--ski-blue);align-self:flex-start;
+  padding-top:12px;border-top:1px solid var(--line);width:100%;
+}
+.idx-card .idx-more:hover{color:var(--ski-blue-dark);text-decoration:underline;}
+.idx-note{font-size:12.5px;color:var(--ink-soft);margin-top:18px;text-align:center;}
 
 /* ── 렌탈 vs 구매 계산기 ── */
 .calc{background:var(--ice);}
@@ -490,44 +497,31 @@ footer a:hover{color:#fff;}
     <div class="sec-head">
       <span class="sec-eyebrow">VIDEO ARCHIVE</span>
       <h2>주제별 영상 모음</h2>
-      <p>슬로프 난이도처럼 색으로 구분했습니다. 필요한 주제부터 골라 보세요.</p>
+      <p>슬로프 난이도처럼 색으로 구분했습니다. 필요한 주제의 재생목록을 눌러 전체 영상을 확인해 보세요.</p>
     </div>
     <div class="idx-grid">
-      <!-- 【수정 필요】 각 항목의 href를 실제 영상/재생목록 URL로 교체.
-           아카이브 색인 작업 완료 후 이 목록을 그대로 옮겨 넣으면 됩니다. -->
       <div class="idx-card">
         <h3><span class="chip chip-g">초급</span>입문 가이드</h3>
-        <ul>
-          <li><a href="#">스키 첫날, 이거 모르면 무조건 넘어집니다</a></li>
-          <li><a href="#">첫 스키 준비물 총정리 (렌탈 vs 구매)</a></li>
-          <li><a href="#">강습, 꼭 받아야 할까? 비용과 선택 기준</a></li>
-        </ul>
+        <p class="idx-desc">준비물·복장·첫날 강습까지, 첫 시즌 입문자를 위한 영상 모음입니다.</p>
+        <a class="idx-more" href="https://www.youtube.com/playlist?list=PLFQp8KuTCGIs" target="_blank" rel="noopener">재생목록 전체보기 →</a>
       </div>
       <div class="idx-card">
         <h3><span class="chip chip-b">중급</span>기술 향상</h3>
-        <ul>
-          <li><a href="#">중급에서 막혔다면 90%는 이 자세 때문</a></li>
-          <li><a href="#">카빙 턴, 에지 감각 만드는 연습 3가지</a></li>
-          <li><a href="#">패러렐에서 카빙으로 넘어가는 로드맵</a></li>
-        </ul>
+        <p class="idx-desc">패러렐 턴부터 카빙 턴까지, 정체기를 뚫는 자세 교정 영상 모음입니다.</p>
+        <a class="idx-more" href="https://www.youtube.com/playlist?list=PLTzE9B5v7-Qo" target="_blank" rel="noopener">재생목록 전체보기 →</a>
       </div>
       <div class="idx-card">
         <h3><span class="chip chip-r">장비</span>장비 리뷰</h3>
-        <ul>
-          <li><a href="#">비싼 장비 샀는데 더 못 타는 이유</a></li>
-          <li><a href="#">입문 부츠 고르는 법 (플렉스 60~80)</a></li>
-          <li><a href="#">고글·헬멧·보호대, 아끼면 안 되는 순서</a></li>
-        </ul>
+        <p class="idx-desc">부츠·플레이트·고글까지, 입문용부터 업그레이드용 장비 리뷰 모음입니다.</p>
+        <a class="idx-more" href="https://www.youtube.com/playlist?list=PLARgNN-1-6LY" target="_blank" rel="noopener">재생목록 전체보기 →</a>
       </div>
       <div class="idx-card">
         <h3><span class="chip chip-o">여행</span>스키장 · 여행</h3>
-        <ul>
-          <li><a href="#">차 없는 사람도 가는 서울 근교 스키장 BEST</a></li>
-          <li><a href="#">입문 1순위 스키장은 왜 오크밸리인가</a></li>
-          <li><a href="#">1박 2일 강원권 스키 여행 코스</a></li>
-        </ul>
+        <p class="idx-desc">서울 근교부터 강원권까지, 스키장 추천과 겨울 여행 코스 모음입니다.</p>
+        <a class="idx-more" href="https://www.youtube.com/playlist?list=PLUcCRa3rh6d0" target="_blank" rel="noopener">재생목록 전체보기 →</a>
       </div>
     </div>
+    <p class="idx-note">※ 재생목록은 계속 업데이트됩니다. 새 영상은 매주 각 재생목록에 바로 추가되니, 즐겨찾기 해두시면 다시 확인하실 필요 없이 최신 영상을 보실 수 있습니다.</p>
   </div>
 </section>
 
